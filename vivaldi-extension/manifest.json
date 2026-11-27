@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Quest Local — вход Meta",
+  "version": "0.1.0",
+  "description": "Передаёт сессию входа Meta локальной программе Quest Local по нажатию кнопки.",
+  "permissions": ["cookies"],
+  "host_permissions": ["https://secure.oculus.com/*"],
+  "background": {"service_worker": "background.js"},
+  "content_scripts": [{
+    "matches": ["http://127.0.0.1/*"],
+    "js": ["content.js"],
+    "run_at": "document_idle"
+  }]
+}
