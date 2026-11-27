@@ -11,7 +11,7 @@ Meta в Vivaldi, затем работа идёт через ADB. Интерфе
 
 - Windows и Python 3.11 или новее с Tkinter.
 - Bluetooth на компьютере.
-- Vivaldi с выполненным входом в Meta.
+- Браузер Vivaldi с выполненным входом в Meta.
 - [Android SDK Platform-Tools](https://developer.android.com/tools/releases/platform-tools).
   Добавьте папку с `adb.exe` в PATH. Программа также ищет его в
   `%PROGRAMFILES%\platform-tools` и `%LOCALAPPDATA%\Android\Sdk\platform-tools`.
