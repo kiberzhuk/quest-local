@@ -1,0 +1,36 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Secrets, authentication material and local diagnostics
+.env
+.env.*
+*.log
+*.out
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+adbkey*
+*secret*.json
+*token*.json
+*cookie*.json
+diagnostics/
+exports/
+
+# Generated APKs/build products: publish source, not copied system APKs or test keys
+*.apk
+*.idsig
+*.dex
+*.class
+*.zip
+test-apk/
